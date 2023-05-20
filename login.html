@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Log In</title>
+  <link rel="stylesheet" href="./SignUp_LogIn.css">
+  <link rel="stylesheet" href="./style/style.css" />
+</head>
+
+<body>
+  <!-- from login -->
+  <div class="container">
+    <form action="index.html" onsubmit="LogIn()">
+      <h1>Log In</h1>
+      <div class="form">
+        <input id="username" type="text" placeholder="Username">
+        <small></small>
+        <span></span>
+      </div>
+      <div class="form">
+        <input id="email" type="email" placeholder="Email">
+        <small></small>
+        <span></span>
+      </div>
+      <div class="form">
+        <input id="password" type="password" placeholder="Password">
+        <small></small>
+        <span></span>
+      </div>
+      <button type="submit" class="btn-submit">Log In</button>
+      <div class="signup-link">
+        Not a member? <a href="./signup.html">Sign Up</a>
+      </div>
+    </form>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>

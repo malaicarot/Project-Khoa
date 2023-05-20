@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProJect</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="header-top">
+                <div class="header-logo">
+                    <img src="assets/img-header/logo.png" alt="logo">
+                </div>
+                <div class="header-search-form">
+                    <form accept-charset="UTF-8" action="/search" class="header-search" method="get">
+                        <input type="text" value placeholder="Tìm sản phẩm..." name="q">
+                        <input type="hidden" value="product" name="type">
+                        <span class="header-input-btn">
+                            <button type="submit" class="btn">
+                                <i class="fa-solid fa-magnifying-glass" class="header-search-icon"></i>
+                            </button>
+                        </span>
+                    </form>
+                </div>
+                <div class="header-item">
+                    <ul class="header-grid-item">
+                        <li class="user">
+                            <a href="signup.html"><img src="assets/img-header/acount.svg" alt="" class="user-icon"></a>
+                        </li>
+                        <li class="shopping">
+                            <a href="#"><img src="assets/img-header/buy.svg" alt="" class="icon"></a>
+                        </li>
+                        <li class="dangonngu">
+                            <a href="#"><img src="assets/img-header/en.svg" alt="" class="dangonngu-icon"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <nav id="header-nav">
+                <div class="menu-nav">
+                    <ul id="menu">
+                        <li class="parent"><a href="#">Giới Thiệu</a>
+                        </li>
+                        <li class="parent"><a href="#">Sản Phẩm</a>
+                            <ul class="child">
+                                <li class="parent"><a href="#">Phòng Khách<span class="expand">»</span></a>
+                                    <ul class="child">
+                                        <li class="parent">
+                                            <a href="#">Sofa<span class="expand">»</span></a>
+                                            <ul class="child">
+                                                <li><a href="#" nowrap>Sofa Băng</a></li>
+                                                <li><a href="#" nowrap>Sofa Góc</a></li>
+                                                <li><a href="#" nowrap>Sofa Giường</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#" nowrap>Bàn Trà/Bàn Sofa</a></li>
+                                        <li><a href="#" nowrap>Kệ Tivi</a></li>
+                                        <li><a href="#" nowrap>Tủ Lưu Trữ</a></li>
+                                    </ul>
+                                </li>
+                                <li class="parent"><a href="#">Phòng Ngủ<span class="expand">»</span></a>
+                                    <ul class="child">
+                                        <li><a href="#" nowrap>Giường</a></li>
+                                        <li><a href="#" nowrap>Tủ Đầu Giường</a></li>
+                                        <li><a href="#" nowrap>Tủ Quần Áo</a></li>
+                                        <li><a href="#" nowrap>Bàn Trang Điểm</a></li>
+                                        <li><a href="#" nowrap>Gương</a></li>
+                                        <li><a href="#" nowrap>Nệm Và Chăn Ga Gối</a></li>
+                                    </ul>
+                                </li>
+                                <li class="parent"><a href="#">Phòng Bếp<span class="expand">»</span></a>
+                                    <ul class="child">
+                                        <li><a href="#" nowrap>Bàn Ăn</a></li>
+                                        <li><a href="#" nowrap>Ghế Ăn</a></li>
+                                        <li><a href="#" nowrap>Tủ Bếp</a></li>
+                                        <li><a href="#" nowrap>Quầy Bếp</a></li>
+                                    </ul>
+                                </li>
+                                <li class="parent"><a href="#">Phòng Làm Việc<span class="expand">»</span></a>
+                                    <ul class="child">
+                                        <li><a href="#" nowrap>Bàn Làm Việc</a></li>
+                                        <li><a href="#" nowrap>Ghế Làm Việc</a></li>
+                                        <li><a href="#" nowrap>Kệ Sách</a></li>
+                                        <li><a href="#" nowrap>Tủ Lưu Trữ</a></li>
+                                    </ul>
+                                </li>
+                                <li class="parent"><a href="#">Phòng Tắm<span class="expand">»</span></a>
+                                    <ul class="child">
+                                        <li><a href="#" nowrap>Gương Phòng Tắm</a></li>
+                                    </ul>
+                                </li>
+                                <li class="parent"><a href="#">Hành Lang<span class="expand">»</span></a>
+                                    <ul class="child">
+                                        <li><a href="#" nowrap>Tủ Giày</a></li>
+                                        <li><a href="#" nowrap>Tủ Lưu Trữ</a></li>
+                                        <li><a href="#" nowrap>Ghế Băng</a></li>
+                                        <li><a href="#" nowrap>Giá Treo</a></li>
+                                        <li><a href="#" nowrap>Gương</a></li>
+                                    </ul>
+                                </li>
+                                <li class="parent"><a href="#">Trang Trí Nhà Cửa<span class="expand">»</span></a>
+                                    <ul class="child">
+                                        <li><a href="#" nowrap>Giá Treo Quần Áo</a></li>
+                                        <li><a href="#" nowrap>Kệ Đa Năng</a></li>
+                                        <li><a href="#" nowrap>Đèn Trang Trí</a></li>
+                                        <li><a href="#" nowrap>Gương Trang Trí</a></li>
+                                    </ul>
+                                </li>
+                                
+                            </ul>
+                        </li>
+                        <li class="parent"><a href="#">Giải Pháp Không Gian</a></li>
+                        <li class="parent"><a href="#">Ưu Đãi</a></li>
+                        <li class="parent"><a href="#">Thư Viện & Dịch Vụ</a>
+                            <ul class="child">
+                                <li><a href="#" nowrap>CataLog</a></li>
+                                <li><a href="#" nowrap>Thư Viện Sản Phẩm</a></li>
+                                <li><a href="#" nowrap>BEYOURs Qua Góc Nhìn Báo Chí</a></li>
+                               
+                            </ul>
+                        </li>
+                        <li class="parent"><a href="#">Tuyển Dụng</a> </li>
+                        <li class="parent"><a href="#">Thanh Lí</a></li>
+                    </ul>
+                </div>
+                <div class="nav-phone">
+                    <a href="" class="nav-link">
+                        <div class="nav-icon">
+                            <img src="assets/img-nav/call_c8e89e22a9b04ad6b8159a50a3b55f74.svg" alt="">
+                        </div>
+                        <div class="nav-hotline">
+                            <p>HOTLINE</p>
+                            <strong>1900 988 960</strong>
+                        </div>
+                    </a>
+                </div>
+            </nav>
+        </header>
+
+        <div class="app_container">
+            <!-- Phần slider/hero -->
+            <section id="home-slider">
+                <div class="hero">
+                    <img src="assets/img-hero/big_banner_index.webp" alt="">
+                </div>
+            </section>
+            <!-- Phần danh mục sản phẩm -->
+            <section id="home-category">
+                <ul>
+                    <li>
+                        <div class="category-list">
+                            <img src="assets/img-category/1.webp" alt="">
+                        </div>
+                        <p class="category-content">PHÒNG KHÁCH</p>
+                    </li>
+                    <li>
+                        <div class="category-list">
+                            <img src="assets/img-category/2.png" alt="">
+                        </div>
+                        <p class="category-content">PHÒNG NGỦ</p>
+                    </li>
+                    <li>
+                        <div class="category-list">
+                            <img src="assets/img-category/3.png" alt="">
+                        </div>
+                        <p class="category-content">PHÒNG BẾP</p>
+                    </li>
+                    <li>
+                        <div class="category-list">
+                            <img src="assets/img-category/4.webp" alt="">
+                        </div>
+                        <p class="category-content">HÀNH LANG</p>
+                    </li>
+                    <li>
+                        <div class="category-list">
+                            <img src="assets/img-category/5.webp" alt="">
+                        </div>
+                        <p class="category-content">PHÒNG LÀM VIỆC</p>
+                    </li>
+                    <li>
+                        <div class="category-list">
+                            <img src="assets/img-category/6.webp" alt="">
+                        </div>
+                        <p class="category-content">TRANG TRÍ NHÀ CỬA</p>
+                    </li>
+                </ul>
+            </section>
+            <!-- Phần sản phẩm tiêu biểu -->
+
+            <section id="home-featured-products">
+            </section>
+            <!-- Phần Flash Sale -->
+            <section id="home-flashsale">
+            </section>
+            <!-- Phần Combo tiết kiệm -->
+            <section id="home-product-deal">
+            </section>
+            <!-- Phần Bảng tin -->
+            <section id="home-blog">
+            </section>
+        </div>
+        <footer class="footer">
+        </footer>
+    </div>
+</body>
+
+</html>
